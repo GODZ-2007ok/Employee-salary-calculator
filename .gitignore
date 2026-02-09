@@ -1,1 +1,8 @@
-bin/
+# Ignore everything inside src
+src/*
+
+# But allow this specific folder
+!src/ProjectJava/
+
+# And allow this specific file
+!src/ProjectJava/EmpSal.java
